@@ -94,12 +94,15 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/dmitryvinn/algolia-docusaurus-event/edit/master/presentation/algolia-event/",
+            "https://github.com/dmitfryvinn/algolia-docusaurus-event/edit/master/presentation/algolia-event/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
+  ],
+  plugins: [
+    "/Users/dvinnik/algolia/algolia-docusaurus-event/presentation/monitoring-plugin",
   ],
 };
