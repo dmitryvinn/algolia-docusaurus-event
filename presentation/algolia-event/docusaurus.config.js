@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/dmitryvinn/algolia-docusaurus-event/edit/master/presentation/website/",
+            "https://github.com/dmitryvinn/algolia-docusaurus-event/edit/master/presentation/algolia-event/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/dmitryvinn/algolia-docusaurus-event/edit/master/presentation/website/blog/",
+            "https://github.com/dmitryvinn/algolia-docusaurus-event/edit/master/presentation/algolia-event/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
